@@ -1,0 +1,60 @@
+body {
+	background: black;
+	box-sizing: border-box;
+}
+
+.postcard {
+	background: white;
+	margin: 0 auto;
+	width: 400px;
+	height: 300px;
+}
+
+.postcard-header {
+	display: flex;
+}
+
+.forgeeksimg {
+	height: 60px;
+	width: 50px;
+	margin-top: 2%;
+	margin-right: 5%;
+}
+
+.MyPostcardtitle {
+	flex: 1;
+	margin-left: 2%;
+}
+
+.postcard-body {
+	display: flex;
+}
+
+.body-left {
+	flex: 1;
+}
+
+.body-right {
+	flex: 1;
+}
+.postcardmessage {
+	font-family: cursive;
+	padding: 10px;
+}
+
+input {
+	border-bottom: 1000px;
+	border-bottom: black;
+}
+
+.postcard-footer {
+	text-align: center;
+}
+
+.button2:hover {
+	background-color: #008cba;
+	color: black;
+	border-style: solid;
+	border-width: 0.5px;
+	padding: 5px;
+}
